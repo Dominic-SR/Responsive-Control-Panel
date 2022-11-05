@@ -12,12 +12,13 @@
 </head>
 <body>
     <div class="container">
+        <!-----------START THE ASIDE------------>
         <aside>
             <div class="top">
                 <div class="logo">
                     <img src="./images/logo.png" alt="logo">
                     
-                    <h2>CONTROL<span class="danger">PANAL</span></h2>
+                    <h2>EGA<span class="danger">TOR</span></h2>
                 </div>
                 <div class="close" id="close-btn">
                     <span class="material-icons-sharp">
@@ -32,7 +33,7 @@
                     <h3>Dashboard</h3>
                 </a>
                 
-                <a href="#">
+                <a href="#" class="active">
                     <span class="material-icons-sharp">
                         person
                         </span>
@@ -58,6 +59,7 @@
                         forum
                     </span>
                     <h3>Messages</h3>
+                    <span class="message-count">26</span>
                 </a>
                 
                 <a href="#">
@@ -96,6 +98,87 @@
                 </a>
             </div>
         </aside>
+        <!-----------END THE ASIDE------------>
+        <main>
+            <h1>Dashboard</h1>
+            <div class="date">
+                <input type="date">
+            </div>
+
+            <div class="insights">
+
+                <!------------START THE SALES------------->
+                <div class="sales">
+                    <span class="material-icons-sharp">
+                        analytics
+                    </span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Total Sales</h3>
+                            <h1>$25,024</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="number">
+                                <p>81%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">Last 24 Hours</small>
+                </div>
+                <!-------------END OF SALES------------>
+
+
+                <!------------START THE EXPENSES------------->
+                <div class="expenses">
+                    <span class="material-icons-sharp">
+                        bar_chart
+                    </span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Total Expenses</h3>
+                            <h1>$14,024</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="number">
+                                <p>62%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">Last 24 Hours</small>
+                </div>
+                <!-------------END OF SALES------------>
+
+
+                <!------------START THE INCOME------------->
+                <div class="income">
+                    <span class="material-icons-sharp">
+                        stacked_kine_chart
+                    </span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Total Income</h3>
+                            <h1>$75,024</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="number">
+                                <p>96%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">Last 24 Hours</small>
+                </div>
+                <!-------------END OF INCOME------------>
+            </div>
+        </main>
     </div>
 </body>
 </html>
